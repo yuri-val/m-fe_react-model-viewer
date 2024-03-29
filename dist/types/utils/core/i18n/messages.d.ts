@@ -93,4 +93,5 @@ export declare const enMessages: {
     顶点: string;
     边: string;
     其他: string;
+    该类型暂不支持预览: string;
 };

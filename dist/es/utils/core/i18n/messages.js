@@ -93,5 +93,6 @@ export const enMessages = {
     顶点: 'Vertexs',
     边: 'Edges',
     其他: 'Others',
+    该类型暂不支持预览: 'This type currently does not support preview',
 };
 //# sourceMappingURL=messages.js.map
