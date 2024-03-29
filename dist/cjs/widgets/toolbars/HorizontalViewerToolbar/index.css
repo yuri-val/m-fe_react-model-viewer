@@ -1,0 +1,81 @@
+.rmv-viewer-toolbar {
+  position: inherit;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(38, 45, 64);
+}
+
+.rmv-viewer-toolbar>div {
+  height: 100%;
+}
+
+.rmv-viewer-toolbar-dropdown .rc-menu>li {
+  line-height: 25px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.rmv-viewer-toolbar-dropdown .ant-menu-item {
+  line-height: 25px;
+  height: 25px;
+}
+
+.rmv-viewer-toolbar-item {
+  position: inherit;
+  padding: 0 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.rmv-viewer-toolbar-item--disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.rmv-viewer-toolbar-item--selected {
+  background-color: white;
+}
+
+.rmv-viewer-toolbar-item-icon {
+  display: flex;
+  align-items: center;
+}
+
+.rmv-viewer-toolbar-item-icon svg {
+  position: inherit;
+  fill: white;
+}
+
+.rmv-viewer-toolbar-item--selected .rmv-viewer-toolbar-item-icon svg {
+  fill: black;
+}
+
+.rmv-viewer-toolbar-item-label {
+  font-size: 14px;
+  margin-left: 4px;
+  color: white;
+  user-select: none;
+}
+
+.rmv-viewer-toolbar-item--selected .rmv-viewer-toolbar-item-label {
+  color: black;
+}
+
+.rmv-viewer-toolbar-left {
+  display: flex;
+}
+
+.rmv-viewer-toolbar-middle {
+  display: flex;
+}
+
+.rmv-viewer-toolbar-right {
+  display: flex;
+}

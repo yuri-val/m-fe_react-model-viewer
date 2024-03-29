@@ -1,0 +1,10 @@
+.rmv-three-viewer-container {
+  position: relative;
+}
+
+.rmv-three-viewer-container .rmv-sv-joystick {
+  position: absolute;
+  width: 100px;
+  bottom: 5%;
+  right: 5%;
+}
